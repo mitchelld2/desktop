@@ -20,6 +20,10 @@ interface IDarwinExternalEditor {
  **/
 const editors: IDarwinExternalEditor[] = [
   {
+    name: 'Clion',
+    bundleIdentifiers: ['com.jetbrains.clion'],
+  },
+  {
     name: 'Atom',
     bundleIdentifiers: ['com.github.atom'],
   },
